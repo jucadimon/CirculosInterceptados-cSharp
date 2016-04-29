@@ -7,7 +7,7 @@ namespace ingCivil
         // PATH C:\Windows\Microsoft.NET\Framework\v4.0.30319;%PATH%
         // ruta de ubicacion del archivo a compilar:
         // cd C:\Users\usuario\Documents\vs code codigo fuente
-        // Compilar con emsamvblado externo:
+        // Compilar con emsamblado externo:
         // csc /out:TestCode.exe /reference:MathLibrary.DLL TestCode.cs
         
         static void Main()
@@ -29,7 +29,7 @@ namespace ingCivil
             else 
             {
                 bandera = false;
-                Console.WriteLine("Se cumple la desigualdad triangular");
+                Console.WriteLine("No se cumple la desigualdad triangular");
             }
             
             if (bandera)

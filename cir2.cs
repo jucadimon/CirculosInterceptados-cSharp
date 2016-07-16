@@ -54,14 +54,16 @@ namespace ingCivil
                 t2 = (x2*x2 - x1*x1 + y2*y2 - y1*y1 + r1*r1 - r2*r2) / (2 * (x2 - x1));
                 Console.WriteLine("El valor t1 es: "+t1+" ");
                 Console.WriteLine("El valor t2 es: "+t2+" ");
-        
+                
+                //Coeficientes de la ecuación cuadrática para el calculo de los puntos de intersección
                 a = t2*t2 + 1;
                 b = 2 * (t1 * (t2 - x1) - y1);
                 c = t2*t2 - 2 * t2 * x1 + x1*x1 + y1*y1 - r1*r1;
                 Console.WriteLine("El valor a es: "+a+" ");
                 Console.WriteLine("El valor b es: "+b+" ");
                 Console.WriteLine("El valor c es: "+c+" ");
-        
+                
+                //Discriminante de la ecuación cuadrática resultante
                 D = b*b - 4 * a * c;
                 Console.WriteLine("El discriminante es: "+D+" ");
         
